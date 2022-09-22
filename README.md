@@ -1,5 +1,8 @@
 # adelia9
 
+Do not use adelia9 - use https://github.com/tinyib/tinyib/  instead because it is the original staring point. Also the codebase in adelia9 is going to be drastically changed. 
+
+
 A fork of tinyib made for php 8.1.x  - With plans to drastically slim it down and re-work some of the code. The reason for the slimming is to focus on one
 db mode, that way it is easier to maintain. Also there are a couple minor problems with php 8.2 beta so minor purges of code and slight re-writes from scratch will have
 to happen. That is for php 8.2, but for now everything works with php 8.1.x 
