@@ -20,7 +20,7 @@ define('TINYIB_MAXH', 250); resolves to a float 8.65 to int. Change the 250 to 2
 OF NOTE, pho 8.2 throws a couple new errors, and the simple captcha no longer functions and the youtube embed no longer functions. It will probably be easiest to purge 
 the old code entirely for both and hand code a new simple captcha and YT embed. 
 
-Adelia 9 will be obsolete when php 8.2 comes out soon. 
+Adelia 9 will be obsolete when php 8.2 comes out soon. Tinyib in any form is never obsolete, it serves as the base for an imageboard to work in any php version. 
 
 
 
