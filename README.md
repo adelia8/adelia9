@@ -3,9 +3,7 @@
 Do not use adelia9 - use https://github.com/tinyib/tinyib/  instead because it is the original staring point. Also the codebase in adelia9 is going to be drastically changed. 
 
 
-A fork of tinyib made for php 8.1.x  - With plans to drastically slim it down and re-work some of the code. The reason for the slimming is to focus on one
-db mode, that way it is easier to maintain. Also there are a couple minor problems with php 8.2 beta so minor purges of code and slight re-writes from scratch will have
-to happen. That is for php 8.2, but for now everything works with php 8.1.x 
+A fork of tinyib made for php 8.1.x  - With plans to drastically slim it down and re-work some of the code. The reason for the slimming is to customize it for a special needs purpose, also to focus on one db mode, that way it is easier to maintain. Also there are a couple minor problems with php 8.2 beta so minor purges of code and slight re-writes from scratch will have to happen. KEEP IN MIND tinyib is GREAT- its just that this repo is straying far from that great use and using some of the tinyib code to do entirely different stuff. So to be clear i am NOT knocking tinyib at all. Say what you want... tinyib has been the best historical ib of all thime, and it has remained in that place for years. Unwaveringly. That is for php 8.2, but for now everything works with php 8.1.x 
 
 PRO TIP- If you try to get current latest tinyib working on php 8.1.X and it gives an error message similar to:
 "implicit conversion from float 8.65 to int loses precision in functions.php line 780" - it has to do with a deprication
