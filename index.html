@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=UTF-8">
+		<meta http-equiv="cache-control" content="max-age=0">
+		<meta http-equiv="cache-control" content="no-cache">
+		<meta http-equiv="expires" content="0">
+		<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT">
+		<meta http-equiv="pragma" content="no-cache">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<title>TinyIB</title>
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/global.css"><link rel="stylesheet" type="text/css" href="css/yotsuba.css" title="Yotsuba" id="mainStylesheet"><link rel="alternate stylesheet" type="text/css" href="css/test.css" title="Test"><link rel="alternate stylesheet" type="text/css" href="css/dark.css" title="Dark"><link rel="alternate stylesheet" type="text/css" href="css/taylor.css" title="Taylor"><link rel="alternate stylesheet" type="text/css" href="css/miku.css" title="Miku"><link rel="alternate stylesheet" type="text/css" href="css/futaba.css" title="Futaba">
+		<script src="js/jquery.js"></script>
+		<script src="js/tinyib.js"></script>
+		
+	</head>	<body>
+	<select id="switchStylesheet"><option value="">Style</option><option value="test">Test</option><option value="dark">Dark</option><option value="taylor">Taylor</option><option value="miku">Miku</option><option value="futaba">Futaba</option><option value="yotsuba">Yotsuba</option></select>
+	
+		<div class="adminbar">
+		[<a href="../" style="text-decoration: underline;"> Home </a>]
+			</div>
+		<div class="logo">		</div>
+	
+		
+			<div class="adelia">
+		<div style="  font-size: 1.2em;
+  text-align: center;">[<span onclick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; this.innerText = 'Close'; this.value = '-'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = 'Open'; }" type="button">Open</span>]<br>
+</div>
+<div class="alt2">
+<div style="display: none;">
+	
+		<div class="postarea">
+			<form name="postform" id="postform" action="imgboard.php" method="post" enctype="multipart/form-data">
+			<input type="hidden" name="MAX_FILE_SIZE" value="2097152">
+			<input type="hidden" name="parent" value="0">
+			<table class="postform">
+				<tbody>
+										<tr>
+						<td class="postblock">
+							Name
+						</td>
+						<td>
+							<input type="text" name="name" size="28" maxlength="75" accesskey="n">
+							
+						</td>
+					</tr>					<tr>
+						<td class="postblock">
+							Subject
+						</td>
+						<td>
+							<input type="text" name="subject" size="40" maxlength="75" accesskey="s" autocomplete="off">
+							<input type="submit" value="Submit" accesskey="z">
+						</td>
+					</tr>					<tr>
+						<td class="postblock">
+							Message
+						</td>
+						<td>
+							<textarea id="message" name="message" cols="48" rows="4" maxlength="8000" accesskey="m"></textarea>
+						</td>
+					</tr>					
+										<tr>
+						<td class="postblock">
+							File
+						</td>
+						<td>
+							<input type="file" name="file" size="35" accesskey="f">
+							
+						</td>
+					</tr>
+						
+		
+					<tr>
+						<td class="postblock">
+							Embed
+						</td>
+						<td>
+							<input type="text" name="embed" size="28" accesskey="x" autocomplete="off">&nbsp;&nbsp;
+						</td>
+					</tr>					<tr>
+						<td colspan="2" class="rules">
+							
+							<ul>
+								
+								<li>Supported file types are JPG, PNG and GIF.</li>
+								<li>Maximum file size allowed is 2 MB.</li>
+								<li>Images greater than 251x251 will be thumbnailed.</li>
+								
+							</ul>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</form>
+		</div></div><hr>
+		<script type="text/javascript">var enablebacklinks = true;</script>
+		<form id="delform" action="imgboard.php?delete" method="post">
+		<input type="hidden" name="board" value="b">		<div id="posts">
+		<div id="post4" class="op"><a id="4"></a>
+<label>
+	<input type="checkbox" name="delete[]" value="4"> <span class="postername">Anonymous</span> 
+</label>
+<span class="reflink">
+	No.4
+</span>&nbsp;[<a href="res/4.html">Reply</a>] <small><span id="backlinks4" class="backlinks"></span></small><div class="message">
+aaaaaaaaaaaa<br>
+</div></div>
+<hr><div id="post3" class="op"><a id="3"></a>
+<label>
+	<input type="checkbox" name="delete[]" value="3"> <span class="postername">Anonymous</span> 
+</label>
+<span class="reflink">
+	No.3
+</span>&nbsp;[<a href="res/3.html">Reply</a>] <small><span id="backlinks3" class="backlinks"></span></small><div class="message">
+eeeeeeeee<br>
+</div></div>
+<hr><div id="post1" class="op"><a id="1"></a>
+<label>
+	<input type="checkbox" name="delete[]" value="1"> <span class="postername">Anonymous</span> 
+</label>
+<span class="reflink">
+	No.1
+</span>&nbsp;[<a href="res/1.html">Reply</a>] <small><span id="backlinks1" class="backlinks"></span></small><div class="message">
+sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss<br>
+</div></div><table>
+<tbody>
+<tr>
+<td class="doubledash">
+	&#0168;
+</td>
+<td class="reply" id="post2"><a id="2"></a>
+<label>
+	<input type="checkbox" name="delete[]" value="2"> <span class="postername">Anonymous</span> 
+</label>
+<span class="reflink">
+	No.2
+</span> <small><span id="backlinks2" class="backlinks"></span></small><div class="message">
+sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss<br>
+</div></td>
+</tr>
+</tbody>
+</table>
+		</div>
+		<hr>
+		<table class="userdelete">
+			<tbody>
+				<tr>
+					<td>
+						Delete Post <input type="password" name="password" id="deletepostpassword" size="8" placeholder="Password">&nbsp;<input name="deletepost" value="Delete" type="submit">
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		</form>
+		<table border="1" style="display: inline-block;">
+	<tbody>
+		<tr>
+			<td>Previous</td><td>&#91;0&#93; </td><td>Next</td>
+		</tr>
+	</tbody>
+</table><table border="1" style="display: inline-block;margin-left: 21px;">
+	<tbody>
+		<tr>
+			<td><form method="get" action="catalog.html"><input value="Catalog" type="submit"></form></td>
+		</tr>
+	</tbody>
+</table>
+		<br>		<div class="footer">
+			All trademarks and copyrights on this page are owned by their respective parties. Images uploaded are the responsibility of the Poster. Comments are owned by the Poster.
+		</div>
+	</body>
+</html>
